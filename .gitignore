@@ -1,0 +1,27 @@
+# AWS Credentials - NEVER PUSH
+**/labsettings/credentials
+**/labsettings/lab_data.yaml
+**/labsettings/settings.json
+**/labsettings/terminals.json
+
+# Environment & Secrets
+**/src/env
+**/uncommitted/config_variables.yml
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Great Expectations uncommitted runtime data
+**/gx/uncommitted/data_docs/
+**/gx/uncommitted/validations/
+
+# Coursera Lab Files
+**/launchButtonSettings.json
+**/.dotfiles-coursera/
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini 
